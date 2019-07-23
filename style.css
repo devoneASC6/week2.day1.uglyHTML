@@ -18,7 +18,8 @@ html{
 
 .top{
     text-align: center;
-    border-image-width: 540px
+    border-image-width: 540px;
+    clear: left
 }
 
 h2{
@@ -27,4 +28,15 @@ h2{
 
 .watch_description{
     font-family: 'Dosis', sans-serif;
+}
+
+.watch_container{
+    background-color: #1A1818;
+    border: 2px solid #FDEFA6
+    
+}
+
+#watches{
+    height: 200px;
+    float: left
 }
